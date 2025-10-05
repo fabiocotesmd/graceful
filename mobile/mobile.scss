@@ -231,3 +231,10 @@ div.cooked {
 .chat-scroll-to-bottom__arrow {
   width: 33px; // minor centering adjustment on iOS
 }
+
+// Ocultar el footer de Discourse en mobile
+.powered-by-discourse,
+.footer-message,
+.login-required .footer-message {
+  display: none !important;
+}

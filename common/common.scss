@@ -453,6 +453,9 @@ body.has-full-page-chat {
   height: calc(100vh - (var(--header-offset) + 6.75em));
 }
 
-.powered-by-discourse {
-  display: none;
+/* Ocultar el footer de Discourse */
+.powered-by-discourse,
+.footer-message,
+.login-required .footer-message {
+  display: none !important;
 }
